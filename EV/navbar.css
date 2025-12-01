@@ -1,0 +1,30 @@
+/* ============================================== MAIN STYLES ============================================== */
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* ================================================== HEADER ================================================ */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 80px;
+    padding: 0 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+}
+
+.header a.logo {
+    position: relative;
+    z-index: 999;
+}
+
+.header a.logo img {
+    width: 75%;
+    
+}
+
+
