@@ -1,0 +1,150 @@
+# Query: 212529
+# ContextLines: 1
+
+41 results - 1 file
+
+vendor\bootstrap\css\bootstrap.min.css:
+    30      --bs-gray-800: #343a40;
+    31:     --bs-gray-900: #212529;
+    32      --bs-primary: #0d6efd;
+
+    38      --bs-light: #f8f9fa;
+    39:     --bs-dark: #212529;
+    40      --bs-primary-rgb: 13, 110, 253;
+
+    58      --bs-body-line-height: 1.5;
+    59:     --bs-body-color: #212529;
+    60      --bs-body-bg: #fff
+
+   316      color: #fff;
+   317:     background-color: #212529;
+   318      border-radius: .2rem
+
+  2029      --bs-table-accent-bg: transparent;
+  2030:     --bs-table-striped-color: #212529;
+  2031      --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  2032:     --bs-table-active-color: #212529;
+  2033      --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  2034:     --bs-table-hover-color: #212529;
+  2035      --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+
+  2037      margin-bottom: 1rem;
+  2038:     color: #212529;
+  2039      vertical-align: top;
+
+  2185  .table-dark {
+  2186:     --bs-table-bg: #212529;
+  2187      --bs-table-striped-bg: #2c3034;
+
+  2273      line-height: 1.5;
+  2274:     color: #212529;
+  2275      background-color: #fff;
+
+  2299  .form-control:focus {
+  2300:     color: #212529;
+  2301      background-color: #fff;
+
+  2331      margin-inline-end: .75rem;
+  2332:     color: #212529;
+  2333      background-color: #e9ecef;
+
+  2348      margin-inline-end: .75rem;
+  2349:     color: #212529;
+  2350      background-color: #e9ecef;
+
+  2383      margin-inline-end: .75rem;
+  2384:     color: #212529;
+  2385      background-color: #e9ecef;
+
+  2412      line-height: 1.5;
+  2413:     color: #212529;
+  2414      background-color: transparent;
+
+  2520      line-height: 1.5;
+  2521:     color: #212529;
+  2522      background-color: #fff;
+
+  2558      color: transparent;
+  2559:     text-shadow: 0 0 0 #212529
+  2560  }
+
+  2920      line-height: 1.5;
+  2921:     color: #212529;
+  2922      text-align: center;
+
+  3193      line-height: 1.5;
+  3194:     color: #212529;
+  3195      text-align: center;
+
+  3216  .btn:hover {
+  3217:     color: #212529
+  3218  }
+
+  3549      color: #fff;
+  3550:     background-color: #212529;
+  3551:     border-color: #212529
+  3552  }
+
+  3588      color: #fff;
+  3589:     background-color: #212529;
+  3590:     border-color: #212529
+  3591  }
+
+  3873  .btn-outline-dark {
+  3874:     color: #212529;
+  3875:     border-color: #212529
+  3876  }
+
+  3879      color: #fff;
+  3880:     background-color: #212529;
+  3881:     border-color: #212529
+  3882  }
+
+  3894      color: #fff;
+  3895:     background-color: #212529;
+  3896:     border-color: #212529
+  3897  }
+
+  3908  .btn-outline-dark:disabled {
+  3909:     color: #212529;
+  3910      background-color: transparent
+
+  4017      font-size: 1rem;
+  4018:     color: #212529;
+  4019      text-align: left;
+
+  4249      font-weight: 400;
+  4250:     color: #212529;
+  4251      text-align: inherit;
+
+  4293      padding: .25rem 1rem;
+  4294:     color: #212529
+  4295  }
+
+  5309      font-size: 1rem;
+  5310:     color: #212529;
+  5311      text-align: left;
+
+  5341      content: "";
+  5342:     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  5343      background-repeat: no-repeat;
+
+  5769  .list-group-item-action:active {
+  5770:     color: #212529;
+  5771      background-color: #e9ecef
+
+  5777      padding: .5rem 1rem;
+  5778:     color: #212529;
+  5779      text-decoration: none;
+
+  6834      padding: 1rem 1rem;
+  6835:     color: #212529
+  6836  }
+
+  7365  .link-dark {
+  7366:     color: #212529
+  7367  }
+
+  7806  .border-dark {
+  7807:     border-color: #212529 !important
+  7808  }
