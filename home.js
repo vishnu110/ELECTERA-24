@@ -1,0 +1,78 @@
+//step 1: get DOM
+let nextDom = document.getElementById('next');
+let prevDom = document.getElementById('prev');
+
+let carouselDom = document.querySelector('.carousel');
+let SliderDom = carouselDom.querySelector('.carousel .list');
+let thumbnailBorderDom = document.querySelector('.carousel .thumbnail');
+let thumbnailItemsDom = thumbnailBorderDom.querySelectorAll('.item');
+let timeDom = document.querySelector('.carousel .time');
+
+thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
+let timeRunning = 1000;
+let timeAutoNext = 4000;
+
+nextDom.onclick = function () {
+    showSlider('next');
+}
+
+prevDom.onclick = function () {
+    showSlider('prev');
+}
+let runTimeOut;
+let runNextAuto = setTimeout(() => {
+    next.click();
+}, timeAutoNext)
+function showSlider(type) {
+    let SliderItemsDom = SliderDom.querySelectorAll('.carousel .list .item');
+    let thumbnailItemsDom = document.querySelectorAll('.carousel .thumbnail .item');
+
+    if (type === 'next') {
+        SliderDom.appendChild(SliderItemsDom[0]);
+        thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
+        carouselDom.classList.add('next');
+    } else {
+        SliderDom.prepend(SliderItemsDom[SliderItemsDom.length - 1]);
+        thumbnailBorderDom.prepend(thumbnailItemsDom[thumbnailItemsDom.length - 1]);
+        carouselDom.classList.add('prev');
+    }
+    clearTimeout(runTimeOut);
+    runTimeOut = setTimeout(() => {
+        carouselDom.classList.remove('next');
+        carouselDom.classList.remove('prev');
+    }, timeRunning);
+
+    clearTimeout(runNextAuto);
+    runNextAuto = setTimeout(() => {
+        next.click();
+    }, timeAutoNext)
+
+}
+
+/*-------------------Counter up-------------------------------------------------------------------*/
+
+$(document).ready(function () {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1200
+    });
+});
+
+/*------------------------------------------------------------------------------*/
+
+function toggleNav() {
+    const hamburgerIcon = document.querySelector('.hamburger-icon');
+    const header__rightSide = document.querySelector('.header__rightSide');
+    hamburgerIcon.classList.toggle('active');
+    header__rightSide.classList.toggle('active');
+
+
+
+    document.addEventListener('click', (event) => {
+        if (event.target.closest('.nav-links') && event.target.closest('.hamburger-icon')) {
+            header__rightSide.classList.remove('active');
+        }
+        
+    });
+
+}
